@@ -6,7 +6,6 @@ Standard commit process
  edit file(s) -> add to stage -> commit
 
 ## Commands
-
 ```
 git init                    # Creates the repo
 git add <filename>          # Add to the stage
@@ -18,4 +17,14 @@ git checkout -b <branch>    # Creates and checkout
 git checkout <branch>       # Checkout target branch
 git status                  # Im Lost, i need an adult
 git merge <targetBranch>    # merge target branch into current branch
+```
+
+## Actively Using Commands
+```
+git add -A
+git commit -m "msg"
+git checkout
+git merge
+git push origin <branch>
+git tag -a v1.0.0 -m "derp!"
 ```
