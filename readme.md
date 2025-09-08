@@ -1,12 +1,17 @@
-Hello World
+# Hello World
 
-Commands
+# Workflows
+
+Standard commit process
+ edit file(s) -> add to stage -> commit
+
+## Commands
 
 ```
 git init                # Creates the repo
 git add <filename>      # Add to the stage
 git commit -m "msg"     # Commits with MSG
-git commit -A           # Commits all changes
+git commit -A           # Commits All files
 git log                 # list of commits
 git branch              # List of Branches
 checkout -b             # Creates and checkout
