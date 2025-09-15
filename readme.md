@@ -16,16 +16,20 @@ git branch                  # List of Branches
 git checkout -b <branch>    # Creates and checkout
 git checkout <branch>       # Checkout target branch
 git status                  # Im Lost, i need an adult
+git pull origin <branch>    # Pulls latest code
 git merge <targetBranch>    # merge target branch into current branch
 ```
 
 ## Actively Using Commands
 ```
+git status
+git checkout <branch>
+git pull origin <branch>
 git add -A
 git commit -m "msg"
-git checkout
-git merge
-git push origin <branch>
+git checkout <branch>
+git merge <to branch> <from branch>
+git push origin <from branch>
 git tag -a v1.0.0 -m "derp!"
 ```
 
